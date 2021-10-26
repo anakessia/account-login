@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-color: #fefeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 550px;
+    height: 420px;
+    background-color: #005266;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.login{
+    height: auto;
+}
+
+h1{
+    font-family: 'Engula', sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.title-div{
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.check{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember{
+    display: flex;
+    justify-content: center;
+}
+
+input:not(input[type="checkbox"]){
+    width: 400px;
+    height: 35px;
+    background-color: #e6e6e6;
+    border: 0;
+}
+
+input:focus{
+    border: 0 none;
+    outline: none;
+
+}
+
+h4{
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: black;
+    width: 400px;
+    height: 35px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #060607;
+    color: #fff;
+}
+
+p{
+    font-family: sans-serif;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.right-div{
+    color: #fff;
+    cursor: grabbing;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 420px;
+    background-color: black;
+    margin-left: 10%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-shrink: 0;
+}
+
+.right-div:hover{
+    width: 70px;
+    transition: .5s ease;
+}
+
+@media (max-width:645px){
+    .container{
+        width: 450px;
+    }
+
+h1{
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+input:not(input[type="checkbox"]){
+    width: 300px;
+    height: 35px;
+    background-color: #fff;
+    border: 0;
+    margin-left: 50x;
+}
+
+.title-div{
+    margin-left: 50px;
+}
+
+.remember{
+    margin-left: 50px;
+}
+
+button{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+}
+
+@media (max-widht:460px){
+    .container{
+        width: 380px;
+    }
+
+h1{
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+
+input:not(input[type="checkbox"]){
+    width: 250px;
+    height: 35px;
+    background-color: #fff;
+    border: 0;
+    margin-left: 100px;
+}
+
+.title-div{
+    margin-left: 100px;
+}
+
+.remember{
+    margin-left: 100px;
+}
+
+button{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+}
